@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/drawable/bg_red_coner_6.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/bookmark.xml" value="0.1796875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/bottom_nav.xml" value="0.1796875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/cart.xml" value="0.1796875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/cart_fragment.xml" value="0.1796875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/favorite.xml" value="0.1796875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/home.xml" value="0.1796875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/item_product.xml" value="0.1796875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/notice.xml" value="0.1796875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/notice_fragment.xml" value="0.1796875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/layout/product_fragment.xml" value="0.1796875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/BottomNav/app/src/main/res/menu/menu_bottom_nav.xml" value="0.1796875" />
       </map>
     </option>

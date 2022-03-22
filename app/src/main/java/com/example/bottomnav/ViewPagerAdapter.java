@@ -15,13 +15,13 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return new Home();
+                return new Product_fragment();
             case 1:
-                return new Favorite();
+                return new Cart_fragment();
             case 2:
-                return new Bookmark();
+                return new Notice_fragment();
             default:
-                return new Home();
+                return new Product_fragment();
         }
     }
 

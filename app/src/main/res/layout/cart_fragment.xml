@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/purple_500">
+    android:background="@color/teal_700">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Home"
+        android:text="@string/cart"
         android:textSize="30dp" />
 
 </LinearLayout>
