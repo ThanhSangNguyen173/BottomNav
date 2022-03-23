@@ -7,6 +7,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -14,6 +16,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class BottomNav extends AppCompatActivity {
 BottomNavigationView navigationView;
 ViewPager viewPager;
+    View viewEndAnimation;
+    ImageView viewAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,8 @@ ViewPager viewPager;
         setContentView(R.layout.bottom_nav);
         viewPager = findViewById(R.id.viewpager);
         navigationView = findViewById(R.id.bottom_nav);
+        viewEndAnimation = findViewById(R.id.view_end_animation);
+        viewAnimation = findViewById(R.id.view_animation);
         setUpViewPager();
         navigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -70,5 +76,13 @@ ViewPager viewPager;
 
             }
         });
+    }
+
+    public View getViewEndAnimation() {
+        return viewEndAnimation;
+    }
+
+    public ImageView getViewAnimation() {
+        return viewAnimation;
     }
 }

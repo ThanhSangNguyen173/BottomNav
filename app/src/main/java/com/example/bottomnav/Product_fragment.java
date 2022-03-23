@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
@@ -36,7 +37,22 @@ public class Product_fragment extends Fragment {
         productAdapter.setData(getListProduct(), new ProductAdapter.IClickAddtoCartListener() {
             @Override
             public void onClickAddtoCart(ImageView imgAddtoCart, Product product) {
+                AnimationUtil.translateAnimation(bottomNav.getViewAnimation(), imgAddtoCart, bottomNav.getViewEndAnimation(), new Animation.AnimationListener() {
+                    @Override
+                    public void onAnimationStart(Animation animation) {
 
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Animation animation) {
+
+                    }
+
+                    @Override
+                    public void onAnimationRepeat(Animation animation) {
+
+                    }
+                });
             }
         });
         rcvProduct.setAdapter(productAdapter);
