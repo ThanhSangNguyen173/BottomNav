@@ -16,14 +16,16 @@
         android:layout_height="match_parent"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
         android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/menu_bottom_nav"
+        android:background="@color/design_default_color_primary"
         app:itemBackground="@color/design_default_color_primary"
         app:itemIconTint="@color/custom_color"
-        app:itemTextColor="@color/custom_color"/>
+        app:itemTextColor="@color/custom_color"
+        app:labelVisibilityMode="selected"
+        app:menu="@menu/menu_bottom_nav" />
     <ImageView
         android:id="@+id/view_animation"
         android:visibility="invisible"
